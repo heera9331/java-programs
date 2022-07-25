@@ -24,6 +24,25 @@ class Main {
         }
         return count;
     }
+    
+    /* another approach
+    static int jumpCount(String str) {
+        int n = str.length()-1;
+        int l = str.length();
+        int count=0;
+        for(int i=3; i>=1; i--) {
+            count += count/3;
+            if(n%i == 0) {
+                return count;
+            } else {
+                n = l - l%i;
+                count += 1;
+            }
+        }
+        return count;
+
+    }
+    */
     public static void main(String[]args) {
         Scanner sc = new Scanner(System.in);
       
