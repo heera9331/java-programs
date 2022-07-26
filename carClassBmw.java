@@ -1,3 +1,8 @@
+/*
+* Author: Heera Singh Lodhi
+* Date: 26/07/2022
+* Proram: Make Car class, another class BMW extends with Car class
+*/
 
 class Car {
     public int no_of_tires;
